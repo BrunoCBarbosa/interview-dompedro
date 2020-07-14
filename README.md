@@ -2,7 +2,7 @@
 
 ## Instructions
 
-- [ ] Frontend application that has the following fields: name, email, created_at
+- [ ] Frontend application that has the following fields: id, name, email, created_at
 
 - [ ] Send data to a backend API written in Node.js
 
