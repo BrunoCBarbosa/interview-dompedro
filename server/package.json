@@ -6,6 +6,13 @@
   "author": "DPNet - Dom Pedro <rdpnet@rededompedro.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   }
 }
