@@ -13,7 +13,7 @@ module.exports = {
 
     async save(req, res){
         const data = req.body 
-  
+     
         await con.query('INSERT INTO register set ?', data, (err, result) => {
             if(err){
                 res.json(err);
